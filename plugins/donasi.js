@@ -3,8 +3,8 @@ let handler = async m => m.reply(`
 │ • Axis [083173108368]
 │ • Three [0895332550102]
 │ • Gopay [083173108368]
-╰─「 Terima Kasih 」
-
+│ • OVO   [0895332550102]
+╰─「 Terima Kasih Ya 」
 
 
 `.trim()) // Tambah sendiri kalo mau
