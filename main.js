@@ -196,7 +196,7 @@ conn.on('message-new', conn.handler)
 conn.on('error', conn.logger.error)
 global.mods = ['6283173108368@s.whatsapp.net']
 global.prems = ['6283173108368@s.whatsapp.net']
-
+global.owner = ['6283173108368@s.whatsapp.net']
 global.dfail = (type, m, conn) => {
   let msg = {
     owner: 'Perintah ini hanya dapat digunakan oleh Owner BOT !',
