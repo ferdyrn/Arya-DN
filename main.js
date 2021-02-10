@@ -72,7 +72,7 @@ conn.handler = async function (m) {
         ) global.DATABASE._data.users[m.sender].lastclaim = 0
       } else global.DATABASE._data.users[m.sender] = {
         exp: 0,
-        limit: 20,
+        limit: 100,
         lastclaim: 0,
       }
       if (global.DATABASE._data.chats[m.chat]) {
@@ -194,8 +194,8 @@ conn.handler = async function (m) {
 
 conn.on('message-new', conn.handler) 
 conn.on('error', conn.logger.error)
-global.mods = ['6281357302007@s.whatsapp.net']
-global.prems = ['62888235435804@s.whatsapp.net']
+global.mods = ['6283173108368@s.whatsapp.net']
+global.prems = ['6283173108368@s.whatsapp.net']
 
 global.dfail = (type, m, conn) => {
   let msg = {
