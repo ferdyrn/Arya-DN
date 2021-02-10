@@ -5,7 +5,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╠➥ Rec: Drawl Nag
 ╠➥ Script: @Nurotomo
 ║
-╠➥ Github: https://github.com/Arya274/Arya-DN
+╠➥ Github: https://github.com/ferdyrn/MrF
 ╠➥ Instagram: @arpunchs
 ╠➥ YouTube: Drawl Nag
 ║
